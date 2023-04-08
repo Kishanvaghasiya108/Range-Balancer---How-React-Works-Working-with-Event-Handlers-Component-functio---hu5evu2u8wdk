@@ -12,7 +12,7 @@ const App = () => {
   <>
   <div id="max-sum-holder">
     <label for="input">Input Max Sum :-</label>
-    <input type='number' defaultValue={x} onChange={(e)=>setX(e.target.value)}></input>
+    <input type='number' value={x} onChange={(e)=>setX(e.target.value)}></input>
   </div>
   <div id="range-a-holder">
     <input type='range' value={a} max= {x-b} onChange={(e)=>setA(e.target.value)}></input>
